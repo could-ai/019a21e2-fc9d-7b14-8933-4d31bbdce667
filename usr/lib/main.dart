@@ -105,7 +105,7 @@ class _MoneyHomePageState extends State<MoneyHomePage> {
             },
             child: const Text('Add'),
           ),
-        ),
+        ],
       ),
     );
   }
