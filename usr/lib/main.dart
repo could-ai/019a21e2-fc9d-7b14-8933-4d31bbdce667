@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Money by Avitor',
+      title: 'Avitor by Money',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
@@ -105,7 +105,7 @@ class _MoneyHomePageState extends State<MoneyHomePage> {
             },
             child: const Text('Add'),
           ),
-        ],
+        ),
       ),
     );
   }
@@ -115,7 +115,7 @@ class _MoneyHomePageState extends State<MoneyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Money by Avitor'),
+        title: const Text('Avitor by Money'),
       ),
       body: Column(
         children: [
